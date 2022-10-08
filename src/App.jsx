@@ -1,11 +1,12 @@
-import { useState } from "react";
-import GlobalStyle from "./components/GlobalStyle/globalStyle";
+import GlobalStyle from "@/components/GlobalStyle/globalStyle";
+import LayoutStyled from "@/components/Layout/LayoutStyled";
 
 function App() {
   return (
     <div className="">
-      <GlobalStyle />
       <h1>Claro Video</h1>
+      <GlobalStyle />
+      <LayoutStyled />
     </div>
   );
 }
