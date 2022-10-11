@@ -1,0 +1,10 @@
+.epgTimelineActions {
+  display: flex;
+  background-color: var(--global-color-black);
+}
+
+.epgTimelineAction {
+  background-color: var(--global-color-black);
+  border: 1px solid var(--global-color-black);
+  cursor: pointer;
+}

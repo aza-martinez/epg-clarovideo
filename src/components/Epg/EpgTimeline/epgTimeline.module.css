@@ -1,0 +1,15 @@
+.epgTimeline {
+  display: flex;
+  overflow: hidden;
+}
+
+.epgTimelineItem {
+  color: var(--global-color-white);
+  width: 330px;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 0.75rem 0.313rem;
+  text-align: left;
+  flex-shrink: 0;
+}

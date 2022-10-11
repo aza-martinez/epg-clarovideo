@@ -1,0 +1,5 @@
+.epgChannelList {
+  background-color: var(--global-color-black);
+  color: var(--global-color-white);
+  z-index: 1;
+}

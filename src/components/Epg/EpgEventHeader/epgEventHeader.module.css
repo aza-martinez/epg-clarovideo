@@ -1,0 +1,27 @@
+.epgEventHeaderContainer {
+  overflow: hidden;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+.epgEventHeader {
+  background-color: var(--global-color-black-light);
+  color: var(--global-color-white);
+  z-index: 2;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+}
+
+.epgEventHeaderTitle {
+  flex-shrink: 0;
+  background-color: var(--global-color-black);
+  font-size: 1.25rem;
+  font-weight: 700;
+  width: var(--global-size-width-event);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}

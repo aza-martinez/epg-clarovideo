@@ -1,0 +1,12 @@
+.button {
+   background-color: var(--global-color-black-medium);
+   color: var(--global-color-white);
+   border: 1px solid var(--global-color-black-medium);
+   border-radius: 0.37rem;
+   padding: 0.8rem 2.2rem;
+   margin: 1rem 0.5rem;
+   font-size: 0.813rem;
+   font-weight: 700;
+   cursor: pointer;
+   z-index: 9999;
+}

@@ -1,0 +1,18 @@
+.epgChannel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 6px 7px 0;
+  padding: 0 10px;
+  border-radius: 0 6px 6px 0;
+  height: var(--global-size-height-channel);
+  background-color: var(--global-color-black-medium);
+}
+
+.epgChannelTitle {
+  font-size: 1.75rem;
+}
+
+.epgChannelImage {
+  width: 80%;
+}

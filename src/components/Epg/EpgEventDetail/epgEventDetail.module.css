@@ -1,0 +1,27 @@
+.epgEventDetail {
+  grid-column: 1 / 3;
+  z-index: 1;
+  color: var(--global-color-white);
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+
+.epgEventName {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+
+.epgEventInfoTime {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.313rem;
+  display: block;
+}
+
+.epgEventDescription {
+  font-size: 1.25rem;
+  font-weight: 400;
+  max-width: 50vw;
+  text-overflow: ellipsis;
+}

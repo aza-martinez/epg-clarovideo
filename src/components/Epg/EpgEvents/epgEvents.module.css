@@ -1,0 +1,10 @@
+.epgEventsContainer {
+   position: relative;
+   margin: 0;
+   background-color: var(--global-color-black);
+}
+
+.channelRow {
+   display: flex;
+   align-items: center;
+}

@@ -1,0 +1,12 @@
+:root {
+  /* COLORS */
+  --global-color-black: #000000;
+  --global-color-black-medium: #1a1a1a;
+  --global-color-black-light: rgba(0, 0, 0, 0.95);
+  --global-color-gray: #44454f;
+  --global-color-white: #ffffff;
+
+  /* SIZES */
+  --global-size-height-channel: 112px;
+  --global-size-width-event: 240px;
+}

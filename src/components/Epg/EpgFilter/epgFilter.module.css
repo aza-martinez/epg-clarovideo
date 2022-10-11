@@ -1,0 +1,8 @@
+.epgFilter {
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 3.125rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}

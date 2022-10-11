@@ -1,0 +1,22 @@
+.epgEvent {
+  background-color: var(--global-color-black-medium);
+  color: var(--global-color-white);
+  height: 118px;
+  border: 1px solid #585858;
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.epgEvent:hover {
+   background-color: #44454f;
+}
+
+.epgEventTitle {
+   font-size: 1.313rem;
+}
+
+.epgEventTime {
+   font-size: 0.875rem;
+   font-weight: 400;
+}
