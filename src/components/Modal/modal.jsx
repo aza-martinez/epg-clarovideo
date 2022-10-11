@@ -4,7 +4,7 @@ import CloseIcon from "@/components/Icons/CloseIcon";
 import classes from "./modal.module.css";
 
 const Modal = (props) => {
-  const { children, isOpen } = props;
+  const { children, isOpen, handleIsOpen } = props;
 
   if (!isOpen) {
     return null;
@@ -13,7 +13,7 @@ const Modal = (props) => {
   return (
     <Portal>
       <div className={classes.modal}>
-        <CloseIcon />
+        <CloseIcon onClick={handleIsOpen} />
         {children}
       </div>
     </Portal>

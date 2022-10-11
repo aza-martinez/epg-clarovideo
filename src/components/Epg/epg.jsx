@@ -5,12 +5,12 @@ import useEpg from "./useEpg";
 import classes from "./epg.module.css";
 
 const Epg = () => {
-  const { handleIsOpen, isOpen } = useEpg();
+  const { isOpen, handleIsOpen } = useEpg();
 
   return (
     <div className={classes.epg}>
       <Button onClick={handleIsOpen}>{"Mostrar EPG"}</Button>
-      <EpgModal isOpen={isOpen} />
+      <EpgModal isOpen={isOpen} handleIsOpen={handleIsOpen} />
     </div>
   );
 };

@@ -14,7 +14,7 @@ const EpgTimeline = () => {
 
     for (let index = hours; index <= 24; index++) {
       listItems.push(
-        <span className={classes.epgTimelineItem} key={"event30" + index}>
+        <span className={classes.epgTimelineItem} key={"event" + index}>
           {index}hs
         </span>
       );

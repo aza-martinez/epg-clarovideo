@@ -7,10 +7,10 @@ import EpgEventHeader from "@/components/Epg/EpgEventHeader";
 import classes from "./epgModal.module.css";
 
 const EpgModal = (props) => {
-  const { isOpen } = props;
+  const { isOpen, handleIsOpen } = props;
 
   return (
-    <Modal isOpen={isOpen}>
+    <Modal isOpen={isOpen} handleIsOpen={handleIsOpen}>
       <div className={classes.epgModal}>
         <EpgEventDetail />
         <div className={classes.schedulerContainer}>
